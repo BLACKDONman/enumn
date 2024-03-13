@@ -1,9 +1,4 @@
 # https://tea.xyz/what-is-this-file
----
-version: 1.0.0
-codeOwners:
-  - '0x10BAEdB1832A70d2694dEfFEA162E792C7F74146'
-quorum: 1
 import random
 
 # Define vocabulary related to the black theme
@@ -21,3 +16,8 @@ def generate_black_sentence():
 num_sentences = 5
 for _ in range(num_sentences):
     print(generate_black_sentence())
+
+version: 1.0.0
+codeOwners:
+  - '0x10BAEdB1832A70d2694dEfFEA162E792C7F74146'
+quorum: 1
